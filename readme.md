@@ -46,6 +46,43 @@ echo_handler = MessageHandler(Filters.text & (~Filters.command), func)
 ```
 I think the Idea is clear and we don't need any thing else to explain lets going on and create our Bots 
 
+
+## Logic Messages: 
+### Work Flow: 
+1. set listener to word 
+2. create Welcome Message 
+3. send choose menu
+4. handle user input 
+5. start logic in this point
 <br />
-<br />
-<br />
+
+
+## Command fired : 
+1. extract
+   1. User 
+   2. user level
+2. switch level
+3. level handler will reaction 
+   1. send menu
+   2. user input
+   3. operations 
+   4. change level  
+   
+
+## user input: 
+1. input capture 
+   1. decision Level 
+   2. fire handler 
+
+## project : 
+1. Levels 
+2. handlers 
+
+
+
+## levels : 
+1. register user : handler 
+2. show menu x : handler
+3. in menu x : handler 
+   
+
