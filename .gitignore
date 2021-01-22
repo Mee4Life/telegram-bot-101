@@ -1,2 +1,4 @@
 .vscode
 __pycache__
+message/__init__.py
+user/__init.py

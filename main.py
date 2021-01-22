@@ -14,7 +14,7 @@ token = '1555160042:AAEq2GLqKnAifpPmI8GoGVRcVjRdfb3465o'
 updater = Updater(token=token, use_context=True)
 dispatcher = updater.dispatcher
 
-# start handler
+# /start handler
 start_handler = CommandHandler('start', functions.start)
 # input Capture
 inputCapture = MessageHandler(
